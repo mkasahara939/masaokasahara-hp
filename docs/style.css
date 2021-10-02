@@ -23,13 +23,10 @@ a:hover {
 
 #wrap {
 	margin: 0 auto;
-	width: 800px;
 }
 
 #header {
-	height: 80px;
-	background: #e1f2d0 url(images/header.jpg) no-repeat;
-
+	background-color: #75B03C;
 }
 
 #header h1 {
@@ -51,7 +48,7 @@ a:hover {
 }
 
 #header h2 {
-	font-size: 18px;
+	font-size: 20px;
 	color: #e1c70e;
 	padding: 5px 0 0 20px;
 	letter-spacing: -1px;
@@ -61,7 +58,7 @@ a:hover {
 #menu {
 	height: 30px;
 	line-height: 30px;
-	background: #e1f2d0 url(images/menu.jpg) no-repeat;
+	background-color: rgb(156, 206, 156);
 }
 
 #menu ul {
@@ -96,7 +93,6 @@ a:hover {
 
 .main {
 	float: none;
-	width: 570px;
 	text-align: justify;
 	padding-top: 20px;
 }
@@ -130,14 +126,9 @@ a:hover {
 	font-weight: 600;
 }
 
-.main ul li a:hover {}
-
 /* right content */
 
-
 .right {
-	float: right;
-	width: 570px;
 	text-align: justify;
 	padding-top: 20px;
 }
@@ -171,14 +162,6 @@ a:hover {
 	font-weight: 600;
 }
 
-.right ul li a:hover {}
-
-
-/* right content end */
-
-/* left content */
-
-
 .left {
 	float: left;
 	width: 180px;
@@ -206,17 +189,11 @@ a:hover {
 	font-weight: 600;
 }
 
-.left ul li a:hover {}
-
-
-/* �ǉ� */
-
 p {
 	font-weight: 500;
 	color: #666666;
 }
 
-/* table�Ɋւ��� */
 table {
 	border: solid 2px #999999;
 	border-collapse: collapse;
@@ -234,8 +211,6 @@ td {
 .cellcolor1 {
 	background-color: #dcdcdc;
 }
-
-
 
 .footer {
 	text-align: center;
