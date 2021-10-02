@@ -1,0 +1,14 @@
+.letter {
+    border: 1px solid #dddddd;
+    background-color: #fcf8fb;
+    margin: 30px 0;
+    padding: 20px 40px 40px;
+}
+.letter p {
+    line-height: 36px;
+    background: url(./images/letter_underline.png) bottom;
+    margin: 0;
+    padding: 0;
+}
+
+
